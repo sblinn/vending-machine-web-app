@@ -1,0 +1,83 @@
+
+html {
+   height: 100%;
+}
+
+.vertical-divider {
+    flex-shrink: 0;
+    width: 2rem;
+    background-color: rgba(0, 0, 0, .1);
+    box-shadow: inset 0 0.5em 1.5em rgb(0 0 0 / 10%), 
+                inset 0 0.125em 0.5em rgb(0 0 0 / 15%);
+}
+
+
+/* ---- Content Container ---- */
+
+#content-container {
+    
+}
+
+
+/* ---- Items Container ---- */
+
+#items-container {
+    background-color: rgb(227, 227, 227);
+    padding: 1rem;
+}
+
+#items-table td {
+    padding: 0.5rem;
+    border-width: 0.5rem;
+    border-color: rgb(227, 227, 227);
+    flex: 1 1 0;
+    width: 33%;
+    height: 0;
+}
+
+.item-btn, .item-btn-label {
+    flex: 1 1 0;
+    height: 100%;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+#items-container td .item-name {
+    font-weight: bold;
+    flex-grow: 1;
+    font-size: 1.5vw;
+}
+
+#items-container td .item-index,
+#items-container td .item-quantity, 
+#items-container td .item-price {
+    font-size: 1.5vw;
+}
+
+#items-container td .item-index,
+#items-container td .item-quantity {
+    font-size: 1.25vw;
+}
+
+
+/* ---- TRANSACTION CONTAINER ---- */
+
+#transaction-container .form-control:read-only {
+    background-color: white;
+}
+
+#money-btn-group button {
+    font-size: small;
+}
+
+#add-penny-btn, #add-nickel-btn, 
+#add-dime-btn, #add-quarter-btn {
+    border-radius: 50%;
+}
+
+
+/* ---- FOOTER ---- */
+
+.footer-text {
+    font-size: x-small;
+}
