@@ -1,3 +1,3 @@
-# vending-machine-web-service
+# Vending Machine Web Application
  
-Vending machine web page connected to Software Guild hosted database containing items for vending.
+Single-page web application which allows user to input pretend money, purchase available items, collect change or purchase more items. Implements a vending machine API which was created an hosted by the Software Guild.
